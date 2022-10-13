@@ -3,5 +3,32 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #212121;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+button {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 15px;
+  color: #000000;
+  background-color: #e3e2e2;
+  border: 1px solid #cfcfcf;
+  border-radius: 25px;
+}
+
+input {  
+  border: 1px solid #cfcfcf;
+  height: 40px;
+  padding: 0px 10px;
+  color: #000000;
+  font-size: 18px;
+  border-radius: 25px;
+}
+
+input:focus {
+  outline: none;
 }
