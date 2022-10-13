@@ -1,10 +1,10 @@
-type Hellow = {
+type HellowProps = {
     name: string,
     number: number,
     quilified?: boolean,
 }
 
-const Hellow = (props: Hellow) => {
+const Hellow = (props: HellowProps) => {
     return (
         <div>
             <h2>

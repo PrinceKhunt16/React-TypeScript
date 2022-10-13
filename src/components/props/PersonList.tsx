@@ -1,11 +1,11 @@
-type PersonList = {
+type PersonListProps = {
     nameList: {
         firstName: string,
         lastName: string,
     }[];
 }
 
-const PersonList = (props: PersonList) => {
+const PersonList = (props: PersonListProps) => {
     return (
         <div>
             {props.nameList.map(name => {

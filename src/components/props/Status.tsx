@@ -1,8 +1,8 @@
-type Status = {
+type StatusProps = {
     status: 'loading' | 'success' | 'error',
 }
 
-const Status = (props: Status) => {
+const Status = (props: StatusProps) => {
     return (
         <h2>
             Status {" "}

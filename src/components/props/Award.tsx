@@ -1,10 +1,10 @@
 import { ReactNode } from "react"
 
-type Award = {
+type AwardProps = {
     children: ReactNode,
 }
 
-const Award = (props: Award) => {
+const Award = (props: AwardProps) => {
     return (
         <div>{props.children}</div>
     )

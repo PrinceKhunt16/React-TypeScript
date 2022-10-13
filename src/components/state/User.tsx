@@ -1,11 +1,11 @@
 import { useState } from 'react'
 
-type User = {
+type UserProps = {
     name: string,
 }
 
 const User = () => {
-    const [user, setUser] = useState<User | null>(null);
+    const [user, setUser] = useState<UserProps | null>(null);
 
     const handleLogin = () => {
         setUser({
