@@ -10,8 +10,14 @@ import Button from "./components/props/Button"
 import Input from "./components/props/Input"
 import Style from "./components/props/Style"
 import Toggle from "./components/state/Toggle"
-import User from "./components/state/User"
+/*
+  import User from "./components/state/User"
+*/
+import User from "./components/context/User"
 import Counter from "./components/state/Counter"
+import ThemeContextProvider from "./components/context/ThemeContext"
+import Box from "./components/context/Box"
+import { UserContextProvider } from "./components/context/UserContext"
 
 const App = () => {
   const [value, setValue] = useState('');
@@ -86,6 +92,14 @@ const App = () => {
       {/* <User /> */}
 
       {/* <Counter /> */}
+
+      {/* <ThemeContextProvider>
+        <Box />
+      </ThemeContextProvider> */}
+
+      <UserContextProvider>
+        <User />
+      </UserContextProvider>
 
     </div>
   )
