@@ -13,11 +13,11 @@ h1, h2, h3, h4, h5, h6, p {
 button {
   font-size: 18px;
   font-weight: 400;
-  padding: 10px 15px;
+  padding: 8px 15px;
   color: #000000;
   background-color: #e3e2e2;
   border: 1px solid #cfcfcf;
-  border-radius: 25px;
+  border-radius: 1px;
 }
 
 input {  
@@ -26,7 +26,7 @@ input {
   padding: 0px 10px;
   color: #000000;
   font-size: 18px;
-  border-radius: 25px;
+  border-radius: 1px;
 }
 
 input:focus {

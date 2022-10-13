@@ -2,7 +2,7 @@ import { ChangeEvent } from "react";
 
 type Input = {
     value: string,
-    handleChange: (event: ChangeEvent<HTMLInputElement>) => void
+    handleChange: (event: ChangeEvent<HTMLInputElement>) => void,
 }
 
 const Input = (props: Input) => {

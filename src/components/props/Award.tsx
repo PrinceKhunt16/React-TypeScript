@@ -1,7 +1,7 @@
 import { ReactNode } from "react"
 
 type Award = {
-    children: ReactNode
+    children: ReactNode,
 }
 
 const Award = (props: Award) => {

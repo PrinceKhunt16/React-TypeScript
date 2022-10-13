@@ -1,8 +1,8 @@
 type PersonList = {
     nameList: {
         firstName: string,
-        lastName: string
-    }[]
+        lastName: string,
+    }[];
 }
 
 const PersonList = (props: PersonList) => {

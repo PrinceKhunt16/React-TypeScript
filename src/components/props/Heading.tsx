@@ -1,5 +1,5 @@
 type Heading = {
-    children: string
+    children: string,
 }
 
 const Heading = (props: Heading) => {

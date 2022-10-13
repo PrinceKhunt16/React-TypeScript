@@ -1,5 +1,5 @@
 type Status = {
-    status: 'loading' | 'success' | 'error'
+    status: 'loading' | 'success' | 'error',
 }
 
 const Status = (props: Status) => {

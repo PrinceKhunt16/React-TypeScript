@@ -1,7 +1,7 @@
 type Hellow = {
     name: string,
     number: number,
-    quilified?: boolean
+    quilified?: boolean,
 }
 
 const Hellow = (props: Hellow) => {

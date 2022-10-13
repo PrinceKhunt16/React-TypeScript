@@ -1,7 +1,7 @@
 import { CSSProperties } from "react"
 
 type Status = {
-    styles: CSSProperties
+    styles: CSSProperties,
 }
 
 const Style = (props: Status) => {
