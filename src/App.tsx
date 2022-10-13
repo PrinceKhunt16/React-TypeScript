@@ -18,6 +18,8 @@ import Counter from "./components/state/Counter"
 import ThemeContextProvider from "./components/context/ThemeContext"
 import Box from "./components/context/Box"
 import { UserContextProvider } from "./components/context/UserContext"
+import DomRef from "./components/ref/DomRef"
+import MutableRef from "./components/ref/MutableRef"
 
 const App = () => {
   const [value, setValue] = useState('');
@@ -97,9 +99,13 @@ const App = () => {
         <Box />
       </ThemeContextProvider> */}
 
-      <UserContextProvider>
+      {/* <UserContextProvider>
         <User />
-      </UserContextProvider>
+      </UserContextProvider> */}
+      
+      {/* <DomRef /> */}
+
+      <MutableRef />
 
     </div>
   )
